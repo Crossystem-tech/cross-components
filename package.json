@@ -1,6 +1,6 @@
 {
   "name": "cross-components",
-  "version": "1.1.0",
+  "version": "1.0.2",
   "description": "Componentes para desenvolvimento controlado de aplicativos e sistemas de forma aprimorada",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/Crossystem-tech/cross-components/issues"
   },
-  "homepage": "https://github.com/Crossystem-tech/cross-components",
-  "dependencies": {
-    "styled-components": "^5.3.3"
-  }
+  "homepage": "https://github.com/Crossystem-tech/cross-components"
 }
