@@ -1,12 +1,26 @@
 {
   "name": "cross-components",
   "version": "1.0.0",
-  "description": "",
+  "description": "Componentes Cross para desenvolvimento controlado de aplicativos e sistemas de forma aprimorada",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository":{
+    "type": "git",
+    "url": "git@github.com:Crossystem-tech/cross-components.git"
+  },
+  "keywords": [
+    "components",
+    "componentes",
+    "react-native",
+    "react-component",
+    "crosssystem-tech"
+  ],
+  "author": "Crossystem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crossystem-tech/cross-components/issues"
+  },
+  "homepage": "https://github.com/Crossystem-tech/cross-components"
 }
