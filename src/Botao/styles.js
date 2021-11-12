@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import {tema} from '../../config/tema';
 
 export const RoundedTouchableOpacity = styled.TouchableOpacity`
 position: ${props => props.position || 'relative'}

@@ -1,12 +1,12 @@
 {
   "name": "cross-components",
-  "version": "1.0.0",
-  "description": "Componentes Cross para desenvolvimento controlado de aplicativos e sistemas de forma aprimorada",
+  "version": "1.1.0",
+  "description": "Componentes para desenvolvimento controlado de aplicativos e sistemas de forma aprimorada",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "git@github.com:Crossystem-tech/cross-components.git"
   },
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Crossystem-tech/cross-components/issues"
   },
-  "homepage": "https://github.com/Crossystem-tech/cross-components"
+  "homepage": "https://github.com/Crossystem-tech/cross-components",
+  "dependencies": {
+    "styled-components": "^5.3.3"
+  }
 }

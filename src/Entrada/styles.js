@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import {tema} from '../../config/tema';
 
 export const Container = styled.View`
   text-align: left;
@@ -21,12 +20,12 @@ export const Titulo = styled.Text`
   margin-top: -14;
   margin-left: 15;
   text-align: left;
-  background-color: ${props => tema.branco};
+  background-color: ${props => props.backgroundColor || 'white'};
   padding-left: 1;
   padding-right: 5;
 
   align-self: flex-start;
-  color: ${props => props.color || props.theme.verde};
+  color: ${props => props.color || 'green'};
   font-size: 14px;
 `;
 
@@ -46,14 +45,14 @@ export const Input = styled.TextInput`
   width: ${props => props.width || '100%'};
   height: ${props => props.height || '70px'};
   border-width: ${props => props.width || '1px'};
-  border-color: ${props => props.borderColor || tema.preto};
+  border-color: ${props => props.borderColor || 'black'};
   border-radius: ${props => props.borderRadius || '15px'};
   align-self: ${props => props.alignSelf || 'flex-start'}
   margin-top: ${props => props.marginTop || '0'}
   margin-right: ${props => props.marginRight || '0'}
   margin-bottom: ${props => props.marginBottom || '0'}
   margin-left: ${props => props.marginLeft || '0'}
-  color: ${props=> props.color || tema.preto};
+  color: ${props=> props.color || "black"};
   font-size: ${props => props.fontSize || '16px'};
   elevation: ${props => props.elevation || '0'}
   background-color: ${props => props.backgroundColor || 'white'};

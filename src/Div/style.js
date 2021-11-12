@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import {tema} from '../../config/tema';
 
 export const Container = styled.View`
   border-bottom-left-radius: ${props => props.borderBottomLeftRadius || '0'};
@@ -15,7 +14,7 @@ export const Container = styled.View`
   width: ${props => props.width || 'auto'};
   height: ${props => props.height || 'auto'};
   elevation: ${props => props.elevation || 0};
-  background-color: ${props => props.backgroundColor || tema.branco};
+  background-color: ${props => props.backgroundColor || 'white'};
   top: ${props => props.top || '0'};
   left: ${props => props.left || '0'};
   right: ${props => props.right || '0'};

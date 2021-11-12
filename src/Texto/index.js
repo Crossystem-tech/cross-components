@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import {Container, Text} from './styles';
 
 function Texto(props) {

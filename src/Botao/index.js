@@ -1,6 +1,5 @@
-import React, {Children} from 'react';
+import React from 'react';
 import {RoundedTouchableOpacity} from './styles';
-import {tema} from '../../config/tema';
 
 function Botao(props) {
   return (
